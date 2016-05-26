@@ -50,7 +50,7 @@ public class JCloudsSwift implements Closeable {
       String credential = "credentials";
 
       swiftApi = ContextBuilder.newBuilder(provider)
-    		.endpoint("http://8.43.86.2:5000/v2.0/")
+    		.endpoint("http://xxx.xxx.xxx.xxx:5000/v2.0/")
             .credentials(identity, credential)
             .modules(modules)
             .buildApi(SwiftApi.class);
